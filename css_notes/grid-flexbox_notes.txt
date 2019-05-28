@@ -12,6 +12,7 @@ grid-template-areas:
 
     nastepnie w kolejnych klasach lub ID cssa podajesz parametr "grid-area: header-top" - bez cudzyslowia
     w tym wypadku pojdzie do 2 komorek, bo dwie sa zadeklarowane w grid-template-areas
+grid-gap: 20px; < przestrzen pomiedzy komorkami grida;
 FLEXBOX:
 * pozycjonowanie jednowymiarowe
 

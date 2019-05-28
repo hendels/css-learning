@@ -1,0 +1,8 @@
+SHADOW:
+    params:
+    * box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+
+BACKGROUND:
+    params:
+    * background: url(img/sender.jpg);
+    * background-position: cover;

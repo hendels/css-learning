@@ -2,4 +2,10 @@ do inicjalizacji dokumentu html - create new file, save it as index.html, after 
  in window, this should bring new subwindow with ! sign, click or choose it , your html file should be 
  created from EMMET boilerplate
 
- 
+ EMMIT
+ lorem15 - 15 znakow lorem ipsum
+ h1 - tworzy h1 od razu, pozostale tagi rowniez
+ section.className - tworzy section z class
+ section#idName - tworzy section z id
+ .top-box.top-box-a = <div class="top-box top-box-a"/> - pamietaj ze w html mozesz
+  deklarowac kilka klas kolo siebie

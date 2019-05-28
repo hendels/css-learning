@@ -1,3 +1,6 @@
+SZYBKI TEMPLATE JAK WEBDEV NATALIA
+http://webdevnatalia.com/
+
 * 3+ kafelki na gorze, przy scroolowaniu przechodzi animacja do poszczegolnej sekcji
 * kafelki: projects, contact, skills, about
     Contact:
@@ -8,3 +11,8 @@
         Bikeysh, OnePage, GoogleMap
 
 * effects - particles on background - some blue squares on white background
+
+colors:
+na dole jak w team cherry references
+
+jebnij swoje zdjecia z sesji;

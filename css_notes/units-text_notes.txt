@@ -1,0 +1,9 @@
+UNITS:
+    * 1 rem - 16 px, cos defaultowego z przegladarki, plusy sa takie ze ta jednostka jest bardziej responsywna.
+        Łatwo ją podzielić przez 2,4,8
+    * 1fr - fractions (???)
+TEXTs:
+    * text-align: center < wiadomo
+    * text-transform: uppercase;
+params:
+    text-decoration: none; - wyrzuca np podkreslenie z linku

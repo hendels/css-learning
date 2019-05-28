@@ -46,3 +46,6 @@ typy:
             </div>
             <p> - sformatuje
         </div>
+PSEUDOCLASSES:
+HOVER:
+    main-nav a:hover{} < :hover po deklaracji

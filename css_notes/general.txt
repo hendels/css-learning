@@ -1,0 +1,11 @@
+CSS PURE VARIABLES:
+:root {
+    --dark: #000;
+    --white: #fff;
+}
+
+in value
+color: var(--dark)
+
+FUNCTIONS:
+repeat(4, 1fr) < powtarza 1fr czterokrotnie
