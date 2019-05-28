@@ -1,0 +1,36 @@
+body {
+    font-family: 'Ranga', cursive;
+}
+przemy {
+    background: purple
+}
+specialEffect {
+    background: red
+}
+section {
+    background: greenyellow
+}
+#przemyId {
+    color: yellow
+}
+.przemyClass h1 {
+    color: blue;
+    font-family: 'Times New Roman', Times, serif
+}
+.przemyClass .combinatorClass {
+    color: green
+}
+.przemyClass .combinatorClass .thirdClass {
+    color: purple;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.przemyClass {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.button {
+    color: yellowgreen;
+    background: black;
+}
+[disabled]{
+    color:red;
+}

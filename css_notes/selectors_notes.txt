@@ -1,0 +1,48 @@
+adding INLINE styles to html:
+    <section style={}/>
+
+selectors:
+1) elements = h1 / div etc
+2) classes = just classes ex .przemyClass {} class="przemyClass" / react className="przemyClass"
+    *mozesz dorzucac kilka klas do elementu <div class="przemyClass, przemyKolejnaClass" />
+3) universal = *{color: red} - applies to all, rarely used
+4) id = <something id="przemyId" /> #przemyId{}
+5) attributes = <button disabled /> / css : [disabled] {color: red}
+
+STYLES PRIORITY:
+1) inline styles
+2) #id selectors
+3) class / pseudoclass / attribute selectors
+4) tag / pseudoelements
+
+COMBINATOR:
+wskazujesz klase lub id #someId / .someClass , a po niej wskazujesz tag do ktorego chcesz cos przypisac
+nie widzialem zeby dzialalo <class1> <class2> <tag> / ale dziala <class1> <class2> <class3>
+combinator ma wiekszy priorytet niz pojedynczy tag
+
+Randomy:
+* ul#horizontal-lines - wskazuje taga z ID, musi byc bez spacji pomiedzy #!
+
+typy: 
+1) Adjacent Sibling - musi byc na tym samym poziomie!
+    h2 + p {} - podaza za schematem - <h2><p> - w tym wypadku sformatuje p, nie sformatuje <h2><h3><p>
+2) General Sibling
+    h2 ~ p {} - podaza za schematem <h2><p>, sformatuje <p>, sformatuje rowniez w wypadku <h2><h3><p>
+3) Child
+    div > p {} - kolejny element musi byc dzieckiem poprzedniego:
+        <div>
+            <p> - sformatuje
+            <div>
+                <p> - nie sformatuje
+            </div>
+            <p> - sformatuje
+        </div>
+4) Descendant
+    div p {} - kolejny element dowolnie zadeklarowany w poziomach
+        <div>
+            <p> - sformatuje
+            <div>
+                <p> -  sformatuje
+            </div>
+            <p> - sformatuje
+        </div>

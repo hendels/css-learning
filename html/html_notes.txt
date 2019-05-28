@@ -1,0 +1,5 @@
+do inicjalizacji dokumentu html - create new file, save it as index.html, after that type !
+ in window, this should bring new subwindow with ! sign, click or choose it , your html file should be 
+ created from EMMET boilerplate
+
+ 

@@ -1,0 +1,10 @@
+* 3+ kafelki na gorze, przy scroolowaniu przechodzi animacja do poszczegolnej sekcji
+* kafelki: projects, contact, skills, about
+    Contact:
+        *git / 
+        *linked in
+    Projects:
+        sections: 
+        Bikeysh, OnePage, GoogleMap
+
+* effects - particles on background - some blue squares on white background

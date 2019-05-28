@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Trebuchet MS';
+    margin: 0px;
+
+}
+.mainView {
+    background-color: #67c684;
+    margin: 50px;
+    padding: 25px;
+    border: 5px black solid;
+    height: 30vh;
+    /* width: 50%; */
+}
+#main-header {
+	height: 84px;
+	background: grey ;
+}
+
+.table {
+	display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+}
+ul#horizontal-list {
+    min-width: 696px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#horizontal-list li {
+    display: inline;
+    border: 1px black solid;
+}

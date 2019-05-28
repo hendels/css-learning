@@ -1,0 +1,22 @@
+GRID:
+* pozycjonowanie dwuwymiarowe
+
+params:
+display: grid;
+grid-template-columns: 30% auto < 30% dla pierwszej kolumny, reszta automatycznie
+grid-template-rows: 60px auto 60px < pierwszy row 60, kolejny auto, trzeci 60px
+grid-template-areas: 
+    "header-top header-top"
+    "sidebar main-content"
+    "footer footer" < nadajesz nazwy do tego co powyzej (grid (2col 3 rows - 2x3)) w stringach
+
+    nastepnie w kolejnych klasach lub ID cssa podajesz parametr "grid-area: header-top" - bez cudzyslowia
+    w tym wypadku pojdzie do 2 komorek, bo dwie sa zadeklarowane w grid-template-areas
+FLEXBOX:
+* pozycjonowanie jednowymiarowe
+
+params: 
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center; < mowia ze dziala tylko jak do elementu jest podany height: 100%

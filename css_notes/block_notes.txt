@@ -1,0 +1,33 @@
+MARGIN > BORDER > PADDING > CONTENT - to jest element
+
+MARGIN:
+    jezeli beda 2 elementy z margin = 40, to top i bottom tych elementow wyniesie w sumie margin 40, 
+    a nie 80. Tak dziala CSS, jezeli chcesz zeby bylo 80, uzyj margin-top, margin-bottom
+
+    margin-top: 1px
+    margin-right: 2px
+    margin-bottom: 3px
+    margin-left: 4px
+    //
+    margin: 1px 2px 3px 4px
+    margin: 5px 3px - top+bottom / left+right
+    margin: 10px < applied to all sides of box
+BORDER:
+    border-width: 2px
+    border-style: solid / dashed
+    border-color: black
+    //
+    border: 2px solid black - nie musi byc w tej kolejnosci, css sam to ogarnie
+
+
+WIDTH:
+    w przypadku 100% referuje do boku, zazwyczaj dziala
+
+HEIGHT:
+    w przypadku 100% referuje do parenta, czyli musisz isc do samej gory z heightem, az do taga html zeby 
+    wartosc procentowa ci zadzialala.
+
+ALL:
+    box-sizing (!!!): 
+        border-box - jezeli chcesz zeby width + height sumowaly padding / margin
+        content-box - jezeli chcesz zeby width + height nie sumowaly padding / margin
